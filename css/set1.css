@@ -31,10 +31,10 @@
 }
 
 .grid figure figcaption {
-	padding: 0.1em;
+	padding: 2em;
 	color: #972702;
 	text-transform: none;
-	font-size: 2.5em;
+	font-size: 1em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -119,9 +119,9 @@ figure.effect-milo h5 {
 }
 
 figure.effect-milo p {
-	padding: 0 10px 0 0;
-	width: 30%;
-	border-right: 1px solid #fff;
+	padding: 0 8rem 0 0;
+	width: 50%;
+	border-right: 2px solid #fff;
 	text-align: right;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -136,6 +136,8 @@ figure.effect-milo:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+	text-align: right;
+	padding: 0 2rem 0 0;
 }
 @media screen and (max-width: 50em) {
 	.content {
@@ -151,35 +153,60 @@ figure.effect-milo:hover p {
 }
 /*--responsive--*/
 @media(max-width:1920px){
+	figure.effect-milo p {
+    width: 100%;
+    text-align: right;
+	}
 	
 }
 @media(max-width:1680px){
+	figure.effect-milo p {
+		width: 100%;
+		text-align: right;
+	}
 	
 }
 @media(max-width:1600px){
+	figure.effect-milo p {
+		width: 100%;
+		text-align: right;
+	}
 	
 }
 @media(max-width:1440px){
+	figure.effect-milo p {
+		width: 100%;
+		text-align: right;
+	}
 	
 }
 @media(max-width:1366px){
+	figure.effect-milo p {
+		width: 100%;
+		text-align: right;
+	}
 	
 }
 @media(max-width:1280px){
+	figure.effect-milo p {
+		width: 100%;
+		text-align: right;
+	}
 	
 }
 @media(max-width:1080px){
 	figure.effect-milo p {
-    width: 65%;
+		width: 100%;
+		text-align: right;
 	}
 }
 @media(max-width:1050px){
 	
 }
 @media(max-width:1024px){
-.grid figure figcaption {
-    padding: 1.5em;
-}	
+	.grid figure figcaption {
+		padding: 1.5em;
+	}	
 }
 @media(max-width:991px){
 	
@@ -195,7 +222,7 @@ figure.effect-milo:hover p {
 }
 @media(max-width:767px){
 	figure.effect-milo p {
-    width: 80%;
+		width: 100%;
 	}
 }
 @media(max-width:736px){
@@ -217,17 +244,17 @@ figure.effect-milo:hover p {
 	
 }
 @media(max-width:440px){
-figure.effect-milo p {
-    width: 90%;
-}	
+	figure.effect-milo p {
+		width: 90%;
+	}	
 }
 @media(max-width:414px){
 	.grid figure figcaption {
-    padding: 1em;
-}
-figure.effect-milo p {
-    width:100%;
-}
+		padding: 1em;
+	}
+	figure.effect-milo p {
+		width:100%;
+	}
 }
 @media(max-width:384px){
 	
