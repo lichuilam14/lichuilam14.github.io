@@ -53,7 +53,10 @@ padding: 0;
 font-family: 'Encode Sans Condensed', sans-serif;
 letter-spacing: 1px;
 }
-h4 {width:50rem!important;}
+h4 {
+	/*width:50rem!important;*/
+	width: 100%;
+}
 h3 {color: #ff3d00;}
 p {
 margin: 0;
@@ -618,7 +621,7 @@ bottom: -31px;
 /*-- //clients --*/
 /*-- contact --*/
 .contact{
-background: url(../images/cc1.jpg)no-repeat 0px 0px;
+/*background: url(../images/cc1.jpg)no-repeat 0px 0px;*/
 background-size: cover;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -1295,7 +1298,7 @@ h4.sec-title small {
 	color: #222;
 	display: block;
 	font-size: 23px;
-	margin-bottom: 18px;
+	margin-bottom: 18px;	
 }
 
 .abt-block i {
@@ -1305,6 +1308,7 @@ h4.sec-title small {
 }
 
 .abt-block h3 {
+	padding-top:0px;
 	font-size: 1.1em;
 	font-weight: 600;
 	color: #000;
@@ -1319,16 +1323,20 @@ h4.sec-title small {
 }
 
 .abt-block {
-	padding: 3em 2em 1em;
+	z-index:1;
+	/*padding: 3em 2em 1em;*/
+	padding: 1.5em 2em 1em;
 	/*height: 15em;*/
 	position: relative;
 	border-radius: 10px;
 	background: #E5CDAF;
+	box-shadow: 0px -6px 5px rgb(222, 222, 222);
 }
 
 .serv_abs {
+	z-index:-1;
 	position: absolute;
-	top: -41px;
+	top:-2.5rem;
 	left: 45px;
 	width: 85px;
 	height: 85px;
@@ -1345,7 +1353,7 @@ a.serv_link {
 	word-spacing: 3px;
 }
 
-.serv_bottom h5 {
+.serv_bottom h5 {	
 	letter-spacing: 5px;
 	word-spacing: 3px;
 }
@@ -1363,6 +1371,7 @@ img {
 .slider-container{
   height: 100%;
   width: 100%;
+  z-index:0;
   position: relative;
   overflow: hidden; 
   text-align: center;

@@ -1777,7 +1777,9 @@ pre code {
 
 .table td,
 .table th {
-	padding: .75rem;
+	/*padding: .75rem;*/
+	padding: 0.3%;
+	font-size: 0.8rem;
 	vertical-align: top;
 	border-top: 1px solid #dee2e6
 }
@@ -7868,7 +7870,8 @@ button.bg-dark:hover {
 	padding-bottom: 0!important
 }
 .py-height100 {
-  height: 150vh;
+  /*height: 150vh;*/
+  height: 100%
 }
 .py-height50 {
   height: 50vh;
@@ -9290,12 +9293,28 @@ a.text-dark:hover {
 }
 
 table.CV {
-  width: 60rem;
+  /*width: 60rem;*/
+  width:100%;
   text-align: left;
+  padding: 15px 15px 15px 15px;
   border-collapse: collapse;
 }
-table.CV td, table.CV th {
+
+table.CV td-2-1,td-2-2 {
+  width:25%;
+  padding: 5rem 5rem;
+  word-wrap: break-word;
+}
+
+table.CV td {
+  width: 25%;
+  margin: 15px 15px 15px 15px;
+  word-wrap: break-word;
+}
+table.CV td-3-2 {
+  width:50%;
   padding: 5px 5px;
+  word-wrap: break-word;
 }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
@@ -9335,11 +9354,22 @@ q.righty {
 }
 
 .column {
-	float:left;
-	width: 30rem;
-	margin: 0 auto;
+	float:none;
+	max-width:60%;
+	width: 50%;
+	padding: 1.5%;
+	display:inline-block;
+	/*margin: 0 auto;*/
 }
+.twitter-col {
+	text-align: center;
+    float:none;
+    max-width:60%;
+	width: 50%;
+	padding: 1.5rem;
+	display:inline-block;
 
+}
 .row:after {
   content: "";
   display: table;
